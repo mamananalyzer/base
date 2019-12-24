@@ -2,9 +2,11 @@ git init --> initialisasi ke repo
 git add --> menambah file ke stagin area
 git status --> cek ombak
 git commit --> doing commit
-git config
-git branch
+git config --> konfigurasi user dan email
+git branch --> membuat branch
+git checkout (branch) --> 
 git help
+git merge (nama file)
 
 
 
