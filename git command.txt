@@ -1,0 +1,37 @@
+git init --> initialisasi ke repo
+git add --> menambah file ke stagin area
+git status --> cek ombak
+git commit --> doing commit
+git config
+git branch
+git help
+
+
+
+Area Repo
+Working tree --> (Staging Area --> History (after commit))
+                                     |
+                                     |
+                                   .git
+                                   
+                                   
+pwd (print working directory)
+
+masuk ke folder untuk menjadi repo Git
+Owner@AiLab1-PC MINGW32 /d
+$ cd C:
+
+Owner@AiLab1-PC MINGW32 /c
+$ cd xampp
+
+Owner@AiLab1-PC MINGW32 /c/xampp
+$ cd htdocs
+
+Owner@AiLab1-PC MINGW32 /c/xampp/htdocs
+$ cd punyagua
+
+Owner@AiLab1-PC MINGW32 /c/xampp/htdocs/punyagua
+$ cd Git
+
+Owner@AiLab1-PC MINGW32 /c/xampp/htdocs/punyagua/Git
+$
