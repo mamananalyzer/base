@@ -71,6 +71,32 @@
       </div>
     </div>
 
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1>About</h1>
+        </div>
+      </div>
+      <br>
+      <div class="row text-justify">
+        <div class="col">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="col">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>
+    </div>
     <br>
 
     <div class="container">
@@ -81,33 +107,33 @@
       </div>
       <br>
       <div class="row">
-        <div class="col-md text-center">
+        <div class="col-md">
           <div class="card container">
-            <img src="img/acuvimII.jpg" class="card-img-top" alt="...">
+            <img src="img/thumbs/1.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Acuvim II Series</h5>
-              <p class="card-text">Quality engineered energy submeters provides a simple robust solution for power monitoring, power quality analysis, kWh metering, system integration.</p>
-              <a href="#" class="btn btn-primary">Read more ...</a>
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
-        <div class="col-md text-center">
+        <div class="col-md">
           <div class="card container">
-            <img src="img/acuvimL.jpg" class="card-img-top" alt="...">
+            <img src="img/thumbs/2.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Acuvim L Series</h5>
-              <p class="card-text">This three phase energy meter is ideal for applications that require standard parameters for monitoring and controlling power distribution systems.</p>
-              <a href="#" class="btn btn-primary">Read more ...</a>
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
-        <div class="col-md text-center">
+        <div class="col-md">
           <div class="card container">
-            <img src="img/aculink810.jpg" class="card-img-top" alt="...">
+            <img src="img/thumbs/3.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Aculink 810</h5>
-              <p class="card-text">Accuenergy’s AcuLink 810 is a data acquisition server and gateway.</p>
-              <a href="#" class="btn btn-primary">Read more ...</a>
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -117,7 +143,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Read more ...</a>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -130,7 +156,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Read more ...</a>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -140,7 +166,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Read more ...</a>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -150,7 +176,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Read more ...</a>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -160,7 +186,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Read more ...</a>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
