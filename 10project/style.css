@@ -1,15 +1,24 @@
-.jumbotron {
+/*.jumbotron {
   background-image: url("img/jumbo.jpg");
   background-size: cover;
-}
+}*/
 
 .jumbotron p{
 	color: #000;
 }
 .nav-item	{
-	font-family: arial;
+	font-family: sans-serif;
 	font-size: 14px;
 }
 .navbar	{
 	background-color: #FFFFFF;
+}
+video {
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: 100%;
+	position: fixed;
+	top: 0; 
+    z-index: -9;
 }

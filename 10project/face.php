@@ -16,7 +16,7 @@
 	     <div class="col ">
 	      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     		      <a class="navbar-brand" href="#">
-                <img src="img/aii.png" width="90" height="90" class="d-inline-block align-top rounded-circle" alt="">
+                <img src="img/aii.png" width="35" height="35s" class="d-inline-block align-top rounded-circle" alt="">
               </a>
     		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     		    <span class="navbar-toggler-icon"></span>
@@ -27,15 +27,16 @@
     		        <a class="nav-link" href="#">BERANDA <span class="sr-only">(current)</span></a>
     		      </li>
     		      <li class="nav-item">
-    		        <a class="nav-link" href="#">TENTANG KAMI</a>
+    		        <a class="nav-link" href="http://localhost/punyagua/base/base/10project/about.php">TENTANG KAMI</a>
     		      </li>
     		      <li class="nav-item dropdown">
     		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     		          PRODUK
     		        </a>
     		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-    		          <a class="dropdown-item" href="#">Action</a>
-    		          <a class="dropdown-item" href="#">Another action</a>
+    		          <a class="dropdown-item" href="#">Power Meter</a>
+    		          <a class="dropdown-item" href="#">Analog Meter</a>
+                  <a class="dropdown-item" href="#">Digital Meter</a>
     		          <div class="dropdown-divider"></div>
     		          <a class="dropdown-item" href="#">Something else here</a>
     		        </div>
@@ -61,22 +62,21 @@
 	  </div>
       <br>
       <br>
-      <br>
-      <br>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" style="background-image: url('img/jumbo.jpg'); background-size: 100%">
       <div class="container text-center">
         <img src="img/aii.png" width="200" class="rounded-circle">
         <h1 class="display-3">Amptron Instrumindo</h1>
         <p class="lead">Sole Agent Electrical Intrument for Indonesian Territory</p>
       </div>
     </div>
-
-    <br>
+    <video loop autoplay>
+        <source src="img/3phaseCT.webm" type="video/webm">
+      </video>
 
     <div class="container">
       <div class="row">
         <div class="col text-center">
-          <h1>Portfolio</h1>
+          <h1></h1>
         </div>
       </div>
       <br>
@@ -111,12 +111,12 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md text-center">
           <div class="card container">
-            <img src="img/thumbs/4.png" class="card-img-top" alt="...">
+            <img src="img/analogrishabh.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">AC ammeters and voltmeters</h5>
+              <p class="card-text">Moving Coil meter AC ammeters and voltmeters with rectifier 90deg.</p>
               <a href="#" class="btn btn-primary">Read more ...</a>
             </div>
           </div>
@@ -124,42 +124,42 @@
       </div>
       <br>
       <div class="row">
-        <div class="col-md">
+        <div class="col-md text-center">
           <div class="card container">
-            <img src="img/thumbs/1.png" class="card-img-top" alt="...">
+            <img src="img/acuvimII.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Acuvim II Series</h5>
+              <p class="card-text">Quality engineered energy submeters provides a simple robust solution for power monitoring, power quality analysis, kWh metering, system integration.</p>
               <a href="#" class="btn btn-primary">Read more ...</a>
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md text-center">
           <div class="card container">
-            <img src="img/thumbs/2.png" class="card-img-top" alt="...">
+            <img src="img/acuvimL.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Acuvim L Series</h5>
+              <p class="card-text">This three phase energy meter is ideal for applications that require standard parameters for monitoring and controlling power distribution systems.</p>
               <a href="#" class="btn btn-primary">Read more ...</a>
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md text-center">
           <div class="card container">
-            <img src="img/thumbs/3.png" class="card-img-top" alt="...">
+            <img src="img/aculink810.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Aculink 810</h5>
+              <p class="card-text">Accuenergy’s AcuLink 810 is a data acquisition server and gateway.</p>
               <a href="#" class="btn btn-primary">Read more ...</a>
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md text-center">
           <div class="card container">
-            <img src="img/thumbs/4.png" class="card-img-top" alt="...">
+            <img src="img/analogrishabh.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">AC ammeters and voltmeters</h5>
+              <p class="card-text">Moving Coil meter AC ammeters and voltmeters with rectifier 90deg.</p>
               <a href="#" class="btn btn-primary">Read more ...</a>
             </div>
           </div>

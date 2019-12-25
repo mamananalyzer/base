@@ -16,7 +16,7 @@
 	     <div class="col ">
 	      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     		      <a class="navbar-brand" href="#">
-                <img src="img/aii.png" width="90" height="90" class="d-inline-block align-top rounded-circle" alt="">
+                <img src="img/aii.png" width="35" height="35s" class="d-inline-block align-top rounded-circle" alt="">
               </a>
     		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     		    <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
     		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     		    <ul class="navbar-nav mr-auto">
     		      <li class="nav-item active">
-    		        <a class="nav-link" href="#">BERANDA <span class="sr-only">(current)</span></a>
+    		        <a class="nav-link" href="http://localhost/punyagua/base/base/10project/face.php">BERANDA <span class="sr-only">(current)</span></a>
     		      </li>
     		      <li class="nav-item">
     		        <a class="nav-link" href="#">TENTANG KAMI</a>
@@ -61,9 +61,11 @@
 	  </div>
       <br>
       <br>
-      <br>
-      <br>
     <div class="jumbotron jumbotron-fluid">
+      <video loop autoplay>
+        <source src="img/DigitalMultimeter.webm" type="video/webm">
+      </video>
+      
       <div class="container text-center">
         <img src="img/aii.png" width="200" class="rounded-circle">
         <h1 class="display-3">Amptron Instrumindo</h1>
