@@ -1,0 +1,15 @@
+.jumbotron {
+  background-image: url("img/jumbo.jpg");
+  background-size: cover;
+}
+
+.jumbotron p{
+	color: #000;
+}
+.nav-item	{
+	font-family: arial;
+	font-size: 14px;
+}
+.navbar	{
+	background-color: #FFFFFF;
+}
