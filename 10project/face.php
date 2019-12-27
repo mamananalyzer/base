@@ -27,7 +27,7 @@
     		        <a class="nav-link" href="#">BERANDA <span class="sr-only">(current)</span></a>
     		      </li>
     		      <li class="nav-item">
-    		        <a class="nav-link" href="http://localhost/punyagua/base/base/10project/about.php">TENTANG KAMI</a>
+    		        <a class="nav-link" href="/about.php">TENTANG KAMI</a>
     		      </li>
     		      <li class="nav-item dropdown">
     		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -69,8 +69,8 @@
         <p class="lead">Sole Agent Electrical Intrument for Indonesian Territory</p>
       </div>
     </div>
-    <video loop autoplay>
-        <source src="img/3phaseCT.webm" type="video/webm">
+      <video loop autoplay>
+        <source src="img/DigitalMultimeter.webm" type="video/webm">
       </video>
 
     <div class="container">

@@ -61,9 +61,10 @@
 	  </div>
       <br>
       <br>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" style="background-image: url('img/jumbo2.png'); background-size: 100%">
+      
       <video loop autoplay>
-        <source src="img/DigitalMultimeter.webm" type="video/webm">
+        <source src="img/3phaseCT.webm" type="video/webm">
       </video>
       
       <div class="container text-center">
