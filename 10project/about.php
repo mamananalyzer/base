@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Amptron Instrumindo</title>
@@ -23,10 +23,10 @@
     		  </button>
     		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     		    <ul class="navbar-nav mr-auto">
-    		      <li class="nav-item active">
-    		        <a class="nav-link" href="http://localhost/punyagua/base/base/10project/face.php">BERANDA <span class="sr-only">(current)</span></a>
-    		      </li>
     		      <li class="nav-item">
+    		        <a class="nav-link" href="http://localhost/punyagua/base/base/10project/face.php">BERANDA </a>
+    		      </li>
+    		      <li class="nav-item active">
     		        <a class="nav-link" href="#">TENTANG KAMI</a>
     		      </li>
     		      <li class="nav-item dropdown">
@@ -74,6 +74,7 @@
       </div>
     </div>
 
+<!-- about -->
     <div class="container">
       <div class="row">
         <div class="col text-center">
@@ -100,102 +101,9 @@
         </div>
       </div>
     </div>
+<!-- end of about -->
     <br>
 
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h1>Portfolio</h1>
-        </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-md">
-          <div class="card container">
-            <img src="img/thumbs/1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md">
-          <div class="card container">
-            <img src="img/thumbs/2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md">
-          <div class="card container">
-            <img src="img/thumbs/3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md">
-          <div class="card container">
-            <img src="img/thumbs/4.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-md">
-          <div class="card container">
-            <img src="img/thumbs/1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md">
-          <div class="card container">
-            <img src="img/thumbs/2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md">
-          <div class="card container">
-            <img src="img/thumbs/3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md">
-          <div class="card container">
-            <img src="img/thumbs/4.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>
-    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

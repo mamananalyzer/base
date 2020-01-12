@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Amptron Instrumindoo</title>
@@ -16,7 +16,7 @@
 	     <div class="col ">
 	      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     		      <a class="navbar-brand" href="#">
-                <img src="img/aii.png" width="35" height="35s" class="d-inline-block align-top rounded-circle" alt="">
+                <img src="img/aii.png" width="35" height="35" class="d-inline-block align-top rounded-circle" alt="">
               </a>
     		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     		    <span class="navbar-toggler-icon"></span>
@@ -24,10 +24,10 @@
     		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     		    <ul class="navbar-nav mr-auto">
     		      <li class="nav-item active">
-    		        <a class="nav-link" href="#">BERANDA <span class="sr-only">(current)</span></a>
+    		        <a class="nav-link" href="http://localhost/punyagua/base/base/10project/face.php">BERANDA <span class="sr-only">(current)</span></a>
     		      </li>
     		      <li class="nav-item">
-    		        <a class="nav-link" href="/about.php">TENTANG KAMI</a>
+    		        <a class="nav-link" href="http://localhost/punyagua/base/base/10project/about.php">TENTANG KAMI</a>
     		      </li>
     		      <li class="nav-item dropdown">
     		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -42,13 +42,13 @@
     		        </div>
     		      </li>
     		      <li class="nav-item">
-    		        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">KONTAK</a>
+    		        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">KONTAK</a>
     		      </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">BERITA</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">BERITA</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">SERVIS</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">SERVIS</a>
               </li>
     		    </ul>
     		    <form class="form-inline my-2 my-lg-0">
@@ -83,9 +83,10 @@
       <div class="row">
         <div class="col-md text-center">
           <div class="card container">
-            <img src="img/acuvimII.jpg" class="card-img-top" alt="...">
+            <img src="img/acuvimII.jpg" width="100%" height="100%" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Acuvim II Series</h5>
+              <hr>
               <p class="card-text">Quality engineered energy submeters provides a simple robust solution for power monitoring, power quality analysis, kWh metering, system integration.</p>
               <a href="#" class="btn btn-primary">Read more ...</a>
             </div>
@@ -93,9 +94,10 @@
         </div>
         <div class="col-md text-center">
           <div class="card container">
-            <img src="img/acuvimL.jpg" class="card-img-top" alt="...">
+            <img src="img/acuvimL.jpg" width="100%" height="100%" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Acuvim L Series</h5>
+              <hr>
               <p class="card-text">This three phase energy meter is ideal for applications that require standard parameters for monitoring and controlling power distribution systems.</p>
               <a href="#" class="btn btn-primary">Read more ...</a>
             </div>
@@ -103,9 +105,10 @@
         </div>
         <div class="col-md text-center">
           <div class="card container">
-            <img src="img/aculink810.jpg" class="card-img-top" alt="...">
+            <img src="img/aculink810.jpg" width="100%" height="100%" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Aculink 810</h5>
+              <hr>
               <p class="card-text">Accuenergy’s AcuLink 810 is a data acquisition server and gateway.</p>
               <a href="#" class="btn btn-primary">Read more ...</a>
             </div>
@@ -113,9 +116,10 @@
         </div>
         <div class="col-md text-center">
           <div class="card container">
-            <img src="img/analogrishabh.png" class="card-img-top" alt="...">
+            <img src="img/analogrishabh.png" width="100%" height="100%" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">AC ammeters and voltmeters</h5>
+              <h5 class="card-title">Ammeters and Voltmeters</h5>
+              <hr>
               <p class="card-text">Moving Coil meter AC ammeters and voltmeters with rectifier 90deg.</p>
               <a href="#" class="btn btn-primary">Read more ...</a>
             </div>
@@ -126,9 +130,10 @@
       <div class="row">
         <div class="col-md text-center">
           <div class="card container">
-            <img src="img/acuvimII.jpg" class="card-img-top" alt="...">
+            <img src="img/acuvimII.jpg" width="100%" height="100%" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Acuvim II Series</h5>
+              <hr>
               <p class="card-text">Quality engineered energy submeters provides a simple robust solution for power monitoring, power quality analysis, kWh metering, system integration.</p>
               <a href="#" class="btn btn-primary">Read more ...</a>
             </div>
@@ -136,9 +141,10 @@
         </div>
         <div class="col-md text-center">
           <div class="card container">
-            <img src="img/acuvimL.jpg" class="card-img-top" alt="...">
+            <img src="img/acuvimL.jpg" width="100%" height="100%" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Acuvim L Series</h5>
+              <hr>
               <p class="card-text">This three phase energy meter is ideal for applications that require standard parameters for monitoring and controlling power distribution systems.</p>
               <a href="#" class="btn btn-primary">Read more ...</a>
             </div>
@@ -146,9 +152,10 @@
         </div>
         <div class="col-md text-center">
           <div class="card container">
-            <img src="img/aculink810.jpg" class="card-img-top" alt="...">
+            <img src="img/aculink810.jpg" width="100%" height="100%" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Aculink 810</h5>
+              <hr>
               <p class="card-text">Accuenergy’s AcuLink 810 is a data acquisition server and gateway.</p>
               <a href="#" class="btn btn-primary">Read more ...</a>
             </div>
@@ -156,9 +163,10 @@
         </div>
         <div class="col-md text-center">
           <div class="card container">
-            <img src="img/analogrishabh.png" class="card-img-top" alt="...">
+            <img src="img/analogrishabh.png" width="100%" height="100%" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">AC ammeters and voltmeters</h5>
+              <h5 class="card-title">Ammeters and Voltmeters</h5>
+              <hr>
               <p class="card-text">Moving Coil meter AC ammeters and voltmeters with rectifier 90deg.</p>
               <a href="#" class="btn btn-primary">Read more ...</a>
             </div>
