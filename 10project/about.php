@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Amptron Instrumindo</title>
@@ -41,13 +41,13 @@
     		        </div>
     		      </li>
     		      <li class="nav-item">
-    		        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">KONTAK</a>
+    		        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">KONTAK</a>
     		      </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">BERITA</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">BERITA</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">SERVIS</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">SERVIS</a>
               </li>
     		    </ul>
     		    <form class="form-inline my-2 my-lg-0">
