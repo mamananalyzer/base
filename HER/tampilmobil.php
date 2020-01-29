@@ -8,30 +8,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
-    <?php 
-        require 'functions.php';
-
-        if (isset($_POST["submit"])) {
-            if (tambah($_POST) > 0 ) {
-                echo 
-                "
-                    <script>
-                        alert('data berhasil ditambahkan !');
-                        document.location.href = 'formmobil.php';
-                    </script>
-                ";
-            } else {
-                echo 
-                "
-                    <script>
-                        alert('data gagal ditambahkan !');
-                        document.location.href = 'formmobil.php';
-                    </script>
-                ";
-            } 
-        }
-    ?>
-
     <title>FORM MOBIL</title>
   </head>
   <body>
@@ -42,23 +18,23 @@
             <h2>-------------------</h2>
         </div>
 
-        <form action="" method="POST">
+        <form>
             <div class="form-group row">
-                <label for="nampel" class="col-sm-2 col-form-label">Nama Pelanggan :</label>
+                <label for="namaPelanggan" class="col-sm-2 col-form-label">Nama Pelanggan :</label>
                 <div class="col-sm-6">
-                <input type="text" class="form-control" name="nampel" id="nampel" placeholder="Nama Pelanggan">
+                <input type="text" class="form-control" id="namaPelanggan" placeholder="Nama Pelanggan">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="alamat" class="col-sm-2">Alamat :</label>
                 <div class="col-sm-6">
-                    <textarea class="form-control" name="alamat" id="alamat" rows="4" placeholder="RT/RW No. Rumah, Kelurahan/Desa, Kecamatan, Provinsi, Kode POS"></textarea>
+                    <textarea class="form-control" id="alamat" rows="4" placeholder="RT/RW No. Rumah, Kelurahan/Desa, Kecamatan, Provinsi, Kode POS"></textarea>
                 </div>
             </div>
             <div class="form-group row">
-                <label for="jenismobil" class="col-sm-2">Jenis Mobil :</label>
+                <label for="jenisMobil" class="col-sm-2">Jenis Mobil :</label>
                 <div class="col-sm-6">
-                    <select class="form-control" name="jenismobil" id="jenismobil">
+                    <select class="form-control" id="jenisMobil">
                     <option>Innova</option>
                     <option>Yaris</option>
                     <option>Fortuner</option>
@@ -67,20 +43,20 @@
                 </div>
             </div>
             <div class="form-group row">
-                <label for="carabayar" class="col-sm-2">Cara Bayar :</label>
-                    <div class="col-sm-6" name="carabayar" id="carabayar">
+                <label for="caraBayar" class="col-sm-2">Cara Bayar :</label>
+                    <div class="col-sm-6">
                         <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="carabayar" id="carabayar1" value="Cash">
-                        <label class="form-check-label" for="carabayar1">Cash</label>
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Cash</label>
                         </div>
                         <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="carabayar" id="carabayar2" value="Kredit">
-                        <label class="form-check-label" for="carabayar2">Kredit</label>
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Kredit</label>
                         </div>
                     </div>
             </div>
-            <button type="submit" name="submit" class="btn btn-primary mb-2">PROSES</button>
-            <button type="cancel" class="btn btn-danger mb-2">BATAL</button>
+            <button type="submit" class="btn btn-primary mb-2">PROSES</button>
+            <button type="submit" class="btn btn-danger mb-2">BATAL</button>
         </form>
       </div>
     
