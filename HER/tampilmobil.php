@@ -8,6 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
+    <?php
+        require 'functions.php';
+    ?>
+
     <title>FORM MOBIL</title>
   </head>
   <body>
@@ -22,41 +26,57 @@
             <div class="form-group row">
                 <label for="namaPelanggan" class="col-sm-2 col-form-label">Nama Pelanggan :</label>
                 <div class="col-sm-6">
-                <input type="text" class="form-control" id="namaPelanggan" placeholder="Nama Pelanggan">
+                    <?php echo $_POST["nampel"]; ?>
                 </div>
             </div>
             <div class="form-group row">
                 <label for="alamat" class="col-sm-2">Alamat :</label>
                 <div class="col-sm-6">
-                    <textarea class="form-control" id="alamat" rows="4" placeholder="RT/RW No. Rumah, Kelurahan/Desa, Kecamatan, Provinsi, Kode POS"></textarea>
+                    <?php echo $_POST["alamat"]; ?>
                 </div>
             </div>
             <div class="form-group row">
-                <label for="jenisMobil" class="col-sm-2">Jenis Mobil :</label>
+                <label for="jenismobil" class="col-sm-2">Jenis Mobil :</label>
                 <div class="col-sm-6">
-                    <select class="form-control" id="jenisMobil">
-                    <option>Innova</option>
-                    <option>Yaris</option>
-                    <option>Fortuner</option>
-                    <option>Avanza</option>
-                    </select>
+                    <?php echo $_POST["jenismobil"]; ?> 
                 </div>
             </div>
             <div class="form-group row">
-                <label for="caraBayar" class="col-sm-2">Cara Bayar :</label>
+                <label for="jenismobil" class="col-sm-2">Harga :</label>
+                <div class="col-sm-6">
+                    <?php 
+                        $harga = $_POST["jenismobil"];;
+
+                        switch ($harga) {
+                            case "Innova":
+                                echo "Rp. 200.000.000";
+                                break;
+                            case "Yaris":
+                                echo "Rp. 185.000.000";
+                                break;
+                            case "Fortuner":
+                                echo "Rp. 400.000.000";
+                                break;
+                            case "Avanza":
+                                echo "Rp. 130.000.000";
+                                break;
+                            default:
+                                echo "Rp. 0";
+                        }
+                    // echo $harga; 
+                    ?> 
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="carabayar" class="col-sm-2">Cara Bayar :</label>
                     <div class="col-sm-6">
-                        <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                        <label class="form-check-label" for="inlineRadio1">Cash</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                        <label class="form-check-label" for="inlineRadio2">Kredit</label>
-                        </div>
+                        <?php echo $_POST["carabayar"]; ?>
                     </div>
             </div>
-            <button type="submit" class="btn btn-primary mb-2">PROSES</button>
-            <button type="submit" class="btn btn-danger mb-2">BATAL</button>
+            <div class="btn btn-light mb-2">
+                <a href="formmobil.php">KEMBALI</a>
+            </div>
+            
         </form>
       </div>
     

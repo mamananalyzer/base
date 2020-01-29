@@ -40,9 +40,26 @@
             <h1>PT. DIAN MOBILINDO</h1>
             <h2>DEALER MOBIL TOYOTA</h2>
             <h2>-------------------</h2>
+            <?php
+                $favcolor = "blue";
+
+                switch ($favcolor) {
+                    case "red":
+                        echo "Your favorite color is red!";
+                        break;
+                    case "blue":
+                        echo "Your favorite color is blue!";
+                        break;
+                    case "green":
+                        echo "Your favorite color is green!";
+                        break;
+                    default:
+                        echo "Your favorite color is neither red, blue, nor green!";
+                }
+            ?>
         </div>
 
-        <form action="" method="POST">
+        <form action="tampilmobil.php" method="POST">
             <div class="form-group row">
                 <label for="nampel" class="col-sm-2 col-form-label">Nama Pelanggan :</label>
                 <div class="col-sm-6">
