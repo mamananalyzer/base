@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(241, 217, 131);
+}
+h1 {
+    color: #A50044;
+}
+form {
+    padding-top: 153px;
+    color: #004D98;
+}
+h2 {
+    color: #004D98;
+}
+.bonus {
+    color: #DB0030;
+}
+.totalharga {
+    text-decoration: underline;
+}
+.atas {
+    background: #EDBB00;
+}

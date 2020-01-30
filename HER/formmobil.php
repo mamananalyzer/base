@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" type="" title="">
 
     <?php 
         require 'functions.php';
@@ -37,10 +38,12 @@
   <body>
       <div class="container">
         <div class="text-center">
-            <h1>PT. DIAN MOBILINDO</h1>
-            <h2>DEALER MOBIL TOYOTA</h2>
-            <h2>-------------------</h2>
-            <?php
+            <div class="fixed-top atas">
+                <h1>PT. DIAN MOBILINDO</h1>
+                <h2>DEALER MOBIL TOYOTA</h2>
+                <h2>-------------------</h2>
+            </div>
+            <!-- <?php
                 $favcolor = "blue";
 
                 switch ($favcolor) {
@@ -56,24 +59,27 @@
                     default:
                         echo "Your favorite color is neither red, blue, nor green!";
                 }
-            ?>
+            ?> -->
         </div>
 
         <form action="tampilmobil.php" method="POST">
             <div class="form-group row">
-                <label for="nampel" class="col-sm-2 col-form-label">Nama Pelanggan :</label>
+                <label for="nampel" class="col-sm-2 col-form-label">Nama Pelanggan</label>
+                <label for="jenismobil" class="col-sm-1">:</label>
                 <div class="col-sm-6">
-                <input type="text" class="form-control" name="nampel" id="nampel" placeholder="Nama Pelanggan">
+                <input type="text" class="form-control" name="nampel" id="nampel" placeholder="Nama Pelanggan" required>
                 </div>
             </div>
             <div class="form-group row">
-                <label for="alamat" class="col-sm-2">Alamat :</label>
+                <label for="alamat" class="col-sm-2">Alamat</label>
+                <label for="jenismobil" class="col-sm-1">:</label>
                 <div class="col-sm-6">
-                    <textarea class="form-control" name="alamat" id="alamat" rows="4" placeholder="RT/RW No. Rumah, Kelurahan/Desa, Kecamatan, Provinsi, Kode POS"></textarea>
+                    <textarea class="form-control" name="alamat" id="alamat" rows="4" placeholder="RT/RW No. Rumah, Kelurahan/Desa, Kecamatan, Provinsi, Kode POS" required></textarea>
                 </div>
             </div>
             <div class="form-group row">
-                <label for="jenismobil" class="col-sm-2">Jenis Mobil :</label>
+                <label for="jenismobil" class="col-sm-2">Jenis Mobil</label>
+                <label for="jenismobil" class="col-sm-1">:</label>
                 <div class="col-sm-6">
                     <select class="form-control" name="jenismobil" id="jenismobil">
                     <option>Innova</option>
@@ -84,14 +90,15 @@
                 </div>
             </div>
             <div class="form-group row">
-                <label for="carabayar" class="col-sm-2">Cara Bayar :</label>
-                    <div class="col-sm-6" name="carabayar" id="carabayar">
+                <label for="carabayar" class="col-sm-2">Cara Bayar</label>
+                <label for="jenismobil" class="col-sm-1">:</label>
+                    <div class="col-sm-6" name="carabayar" id="carabayar" required>
                         <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="carabayar" id="carabayar1" value="Cash">
+                        <input class="form-check-input" type="radio" name="carabayar" id="carabayar1" value="Cash" required>
                         <label class="form-check-label" for="carabayar1">Cash</label>
                         </div>
                         <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="carabayar" id="carabayar2" value="Kredit">
+                        <input class="form-check-input" type="radio" name="carabayar" id="carabayar2" value="Kredit" required>
                         <label class="form-check-label" for="carabayar2">Kredit</label>
                         </div>
                     </div>
