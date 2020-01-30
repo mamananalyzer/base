@@ -8,7 +8,7 @@
 <body>
 <div class="row fixed-top no-gutters font-weight-bold ">
 	     <div class="col ">
-	      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	      <nav class="navbar navbar-expand-lg navbar-dark bg-light">
     		      <a class="navbar-brand" href="#">
                 <img src="img/aii.png" width="35" height="35" class="d-inline-block align-top rounded-circle" alt="">
               </a>
