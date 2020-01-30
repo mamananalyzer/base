@@ -75,10 +75,10 @@
     </div>
 
 <!-- about -->
-    <div class="container">
+    <div class="container text-white">
       <div class="row">
         <div class="col text-center">
-          <h1>About</h1>
+            <h1>About</h1>
         </div>
       </div>
       <br>
