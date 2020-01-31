@@ -62,16 +62,40 @@
 	  </div>
       <br>
       <br>
-    <div class="jumbotron jumbotron-fluid" style="background-image: url('img/jumbo.jpg'); background-size: 100%">
-      <div class="container text-center">
-        <img src="img/aii.png" width="200" class="rounded-circle">
-        <h1 class="display-3">Amptron Instrumindo</h1>
-        <p class="lead">Sole Agent Electrical Intrument for Indonesian Territory</p>
+      <div class="pad container text-dark">
+      <br>
+      <br>
+      <div class="row text-left">
+        <div class="col-5">
+          <img class="mb-4" src="img/acuvimII.jpg" width=460px alt="Acuvim II Series">
+          <img class="ml-2" src="img/acuvimII.jpg" width=120px alt="Acuvim II Series">
+          <img class="ml-2" src="img/acuvimII.jpg" width=120px alt="Acuvim II Series">
+          <img class="ml-2" src="img/acuvimII.jpg" width=120px alt="Acuvim II Series">
+
+        </div>
+        <div class="col-7 mb-3">
+          <h1 class="mb-3">High Performance Power and Energy Meter</h1>
+          <h2 class="mb-3">Acuvim II Series</h2>
+          <p>Quality engineered energy submeters provides a simple robust solution for power monitoring, power quality analysis, kWh metering, system integration, controlling power distribution systems & other speciality applications.</p>
+          <a href="quote.php" class="ml-4 mb-4 btn btn-info">Request a Quote</a>
+          <ul>
+            <li>Level 2 DNP3 and IEC61850 2nd Edition</li>
+            <li>8GB Datalogging and event storage</li>
+            <li>Four different models for different applications</li>
+            <li>Revenue grade ANSI C12.20 class 0.2 & IEC 62053-22 class 0.2s</li>
+            <li>Built-in MODBUS RTU via RS485 port</li>
+            <li>Plug-in modules for BACNET, Ethernet, Profibus & WiFi</li>
+            <li>Optional data logging, time-of-use and power quality monitoring</li>
+            <li>Free Cloud Metering Data Storage + Analytics</li>
+          </ul>
+          <h6>Downloads:</h6>
+          <a href="quote.php" class="ml-1 mb-4 btn btn-info">Datasheet</a>
+          <a href="quote.php" class="ml-1 mb-4 btn btn-info">Software</a>
+          <a href="quote.php" class="ml-1 mb-4 btn btn-info">User's Manual</a>
+          <a href="quote.php" class="ml-1 mb-4 btn btn-info">Modbus Map</a>
+        </div>
       </div>
     </div>
-      <video loop autoplay>
-        <source src="img/DigitalMultimeter.webm" type="video/webm">
-      </video>
 
     <div class="container">
       <div class="row">
