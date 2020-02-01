@@ -42,7 +42,7 @@
     		        </div>
     		      </li>
     		      <li class="nav-item">
-    		        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">KONTAK</a>
+    		        <a class="nav-link" href="kontak.php" tabindex="-1" aria-disabled="true">KONTAK</a>
     		      </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">BERITA</a>
@@ -60,11 +60,7 @@
 	    </div>
       
 	  </div>
-      <br>
-      <br>
       <div class="pad container text-dark">
-      <br>
-      <br>
       <div class="row text-left">
         <div class="col-5">
           <img class="mb-4" src="img/acuvimII.jpg" width=460px alt="Acuvim II Series">

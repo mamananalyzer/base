@@ -24,7 +24,7 @@
     		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     		    <ul class="navbar-nav mr-auto">
     		      <li class="nav-item">
-    		        <a class="nav-link" href="face.php">BERANDA </a>
+    		        <a class="nav-link" href="index.php">BERANDA </a>
     		      </li>
     		      <li class="nav-item active">
     		        <a class="nav-link" href="about.php">TENTANG KAMI</a>
@@ -41,7 +41,7 @@
     		        </div>
     		      </li>
     		      <li class="nav-item">
-    		        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">KONTAK</a>
+                <a class="nav-link" href="kontak.php" tabindex="-1" aria-disabled="true">KONTAK</a>
     		      </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">BERITA</a>
@@ -75,7 +75,7 @@
     </div>
 
 <!-- about -->
-    <div class="container text-white">
+    <div class="container text-warning">
       <div class="row">
         <div class="col text-center">
             <h1>About</h1>
@@ -84,12 +84,7 @@
       <br>
       <div class="row text-justify">
         <div class="col">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <p class="mt-5 lead">In 1997, PT. Amptron Instrumindo was established as a specalist metering and electrical instrumentation company. We are belong to the Amptron Group which is already established since 1982 with offices in Singapore, Malaysia, Thailand, and Indonesia, operate internationally to serve our customers localy. As a group, we have built a solid foundation of knowledge, experience and reference of providing advanced instrumentation, automation and control solution to wide apectrum of industries in South East Asia region.</p>
         </div>
         <div class="col">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

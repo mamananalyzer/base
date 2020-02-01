@@ -24,7 +24,7 @@
     		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     		    <ul class="navbar-nav mr-auto">
     		      <li class="nav-item active">
-    		        <a class="nav-link" href="face.php">BERANDA <span class="sr-only">(current)</span></a>
+    		        <a class="nav-link" href="index.php">BERANDA <span class="sr-only">(current)</span></a>
     		      </li>
     		      <li class="nav-item">
     		        <a class="nav-link" href="about.php">TENTANG KAMI</a>
@@ -42,7 +42,7 @@
     		        </div>
     		      </li>
     		      <li class="nav-item">
-    		        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">KONTAK</a>
+                <a class="nav-link" href="kontak.php" tabindex="-1" aria-disabled="true">KONTAK</a>
     		      </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">BERITA</a>
@@ -63,7 +63,7 @@
       <br>
       <br>
     <div class="jumbotron-fluid" style="background-image: url('img/watermark.jpg'); background-size: 44%">
-        <div class="container row">
+        <div class="row">
             <div class="ml-5 col-8 text-left">
                 <img class="ml-5"src="img/aii.png" width="200" class="rounded-circle">
                 <h1 class="display-3">Amptron Instrumindo</h1>
@@ -75,8 +75,8 @@
                     <p>INDONESIA</p>
                 </div>
             </div>
-            <div class="col-4 text-left">
-                <p class="lead mt-10">In 1997, PT. Amptron Instrumindo was established as a specalist metering and electrical instrumentation company. We are belong to the Amptron Group which is already established since 1982 with offices in Singapore, Malaysia, Thailand, and Indonesia, operate internationally to serve our customers localy. As a group, we have built a solid foundation of knowledge, experience and reference of providing advanced instrumentation, automation and control solution to wide apectrum of industries in South East Asia region.</p>
+            <div class="col-3 text-left">
+                <p class="mt-5 lead">In 1997, PT. Amptron Instrumindo was established as a specalist metering and electrical instrumentation company. We are belong to the Amptron Group which is already established since 1982 with offices in Singapore, Malaysia, Thailand, and Indonesia, operate internationally to serve our customers localy. As a group, we have built a solid foundation of knowledge, experience and reference of providing advanced instrumentation, automation and control solution to wide apectrum of industries in South East Asia region.</p>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@
 }*/
 
 .jumbotron{
-	color: #004D98;
+	color: rgb(0, 0, 0);
 }
 .nav-item	{
 	font-family: sans-serif;
@@ -23,5 +23,5 @@ video {
     z-index: -9;
 }
 .pad {
-  padding-top: 150px;
+  padding-top: 90px;
 }
